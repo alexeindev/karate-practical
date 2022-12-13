@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55d7b11c-8d6b-4447-a193-da2274b2c5f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/test1.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/posts.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/test1.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/testRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,54 +35,63 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.testRunner.testAll">
-    <configuration name="testRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="karate-mvn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="testRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testRunner.testAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="karate-mvn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="testRunner" />
-      <option name="METHOD_NAME" value="testAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test1.feature: hello" type="karate" temporary="true">
+  <component name="RunManager" selected="Karate Feature.posts.feature: Create and update a post">
+    <configuration name="posts.feature: Create a post using the user 1 (1)" type="karate" temporary="true">
       <option name="karateSearchPaths">
         <list>
-          <option value="$PROJECT_DIR$/src/test/java/features/test1.feature:3" />
+          <option value="$PROJECT_DIR$/src/test/java/features/posts.feature:19" />
+        </list>
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="posts.feature: Create a post using the user 1" type="karate" temporary="true">
+      <option name="karateSearchPaths">
+        <list>
+          <option value="$PROJECT_DIR$/src/test/java/features/posts.feature:20" />
+        </list>
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="posts.feature: Create and delete a post (1)" type="karate" temporary="true">
+      <option name="karateSearchPaths">
+        <list>
+          <option value="$PROJECT_DIR$/src/test/java/features/posts.feature:38" />
+        </list>
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="posts.feature: Create and delete a post" type="karate" temporary="true">
+      <option name="karateSearchPaths">
+        <list>
+          <option value="$PROJECT_DIR$/src/test/java/features/posts.feature:26" />
+        </list>
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="posts.feature: Create and update a post" type="karate" temporary="true">
+      <option name="karateSearchPaths">
+        <list>
+          <option value="$PROJECT_DIR$/src/test/java/features/posts.feature:27" />
         </list>
       </option>
       <method v="2">
@@ -95,9 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.testRunner.testAll" />
-        <item itemvalue="JUnit.testRunner" />
-        <item itemvalue="Karate Feature.test1.feature: hello" />
+        <item itemvalue="Karate Feature.posts.feature: Create and update a post" />
+        <item itemvalue="Karate Feature.posts.feature: Create and delete a post (1)" />
+        <item itemvalue="Karate Feature.posts.feature: Create a post using the user 1 (1)" />
+        <item itemvalue="Karate Feature.posts.feature: Create and delete a post" />
+        <item itemvalue="Karate Feature.posts.feature: Create a post using the user 1" />
       </list>
     </recent_temporary>
   </component>
